@@ -71,7 +71,10 @@ Future<void> _buildPopupDialog(BuildContext context, int? value) {
         actions: <Widget>[
           TextButton(
             onPressed: () => Navigator.pop(context, 'Cancel'),
-            child: const Text('Close', style: TextStyle(color: Colors.lightBlue),),
+            child: const Text(
+              'Close',
+              style: TextStyle(color: Colors.lightBlue),
+            ),
           ),
         ],
       );
